@@ -4,6 +4,8 @@ This page covers mounting Pinc'Open on a **G1 EDU / Flagship** wrist in place of
 
 Unitree publishes no drawing or CAD of the wrist socket. This page collects what is published, what was measured, and what still has to be checked on the robot.
 
+![Interface_G1 preview](../assets/images/g1_interface_preview.png)
+
 ![Interface_G1 drawing](../assets/images/g1_interface_drawing.png)
 
 ## Parts
