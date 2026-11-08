@@ -50,7 +50,7 @@ Test it with [`dex1_bridge_tests.ipynb`](notebooks/dex1_bridge_tests.ipynb) (ker
 python test_dex1_sweep.py --watch   # state only
 python test_dex1_sweep.py           # Unitree's sine sweep
 ```
-Details in [dex1_bridge/README.md](dex1_bridge/README.md).
+Details in [dex1_bridge/README.md](dex1_bridge/README.md). To run it on a G1 with xr_teleoperate, see [docs/g1_dex1_teleop.md](docs/g1_dex1_teleop.md).
 
 ## Mount it on a Unitree G1 wrist
 

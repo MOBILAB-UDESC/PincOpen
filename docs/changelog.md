@@ -16,3 +16,8 @@
 ### Added
 - `Interface_G1`: adapter for the Unitree G1 wrist clamp (STL, plate STEP, build script in `cad/g1/`)
 - `docs/g1_wrist_interface.md`: G1 wrist dimensions, sources, wiring and fitting notes
+
+## MOBILAB-UDESC fork - 04/11/2026
+### Added
+- `docs/g1_dex1_teleop.md`: runbook for the Dex1 bridge on a G1 with xr_teleoperate (robot setup,
+  bridge install, smoke test, one-gripper teleop)
