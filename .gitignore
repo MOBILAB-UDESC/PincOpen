@@ -9,3 +9,7 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# SolidCraft scripts and design written by cad/controller_mount/build_controller_mount.py
+cad/controller_mount/*_script.json
+cad/controller_mount/*.sc
