@@ -56,6 +56,10 @@ Details in [dex1_bridge/README.md](dex1_bridge/README.md).
 
 [`cad/stl/Interface_G1.stl`](cad/stl/Interface_G1.stl) replaces `Interface_ARM100` so the gripper fits the G1 EDU/Flagship wrist clamp in place of the Dex1-1. See [docs/g1_wrist_interface.md](docs/g1_wrist_interface.md) for the dimensions, print settings, wiring, and the checks to do on the robot.
 
+## Mount the servo controller board
+
+[`cad/stl/Controller_Riser.stl`](cad/stl/Controller_Riser.stl) and [`cad/stl/Controller_Cover.stl`](cad/stl/Controller_Cover.stl) hold a Waveshare Bus Servo Adapter (A) on the outer face of [`cad/stl/Bottom_Plate_Controller.stl`](cad/stl/Bottom_Plate_Controller.stl), which replaces `Bottom_Plate` and takes 4 M3 heat inserts. See [docs/waveshare_controller_mount.md](docs/waveshare_controller_mount.md) for the hardware, print settings and assembly.
+
 ## Layout
 
 | Path | Content |
@@ -65,6 +69,7 @@ Details in [dex1_bridge/README.md](dex1_bridge/README.md).
 | `notebooks/dex1_bridge_tests.ipynb` | Test the Dex1 bridge |
 | `dex1_bridge/` | Dex1 DDS server, Feetech driver, calibration, test client |
 | `cad/g1/` | Build script for the G1 wrist adapter (`Interface_G1`), and the vendored lerobot G1 plug |
+| `cad/controller_mount/` | Build script for the Waveshare controller mount (`Controller_Riser`, `Controller_Cover`, `Bottom_Plate_Controller`) |
 
 ## License
 
